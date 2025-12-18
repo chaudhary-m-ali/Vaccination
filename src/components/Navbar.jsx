@@ -2,8 +2,9 @@ import React from "react";
 import Vaccination_Logo from "../assets/Vaccination.ng.svg";
 // import { useState } from "react";
 import { Home, Parentheses, SpaceIcon } from "lucide-react";
-import Group_83 from "../assets/Group83.svg";
 import { Link, NavLink } from "react-router-dom";
+import close_icon from "../assets/close_icon.svg";
+import { SheetDemo } from "./SheetDemo";
 const Navbar = () => {
   // const [openSidebar, setopenSidebar] = useState(false);
   const inactiveClass = "text-white/50  hover:text-white font-medium";
@@ -15,7 +16,7 @@ const Navbar = () => {
         <hr className="h-1 w-[100px] bg-[#17C2EC] rounded-full" />
       </div>
       <div>
-        <ul className="flex gap-6 text-[24px]  cursor-pointer">
+        <ul className="flex gap-6 text-[24px]  cursor-pointer max-lg:hidden ">
           <li>
             <NavLink to="/">
               {({ isActive }) => (
@@ -83,11 +84,14 @@ const Navbar = () => {
         </ul>
       </div>
       <div>
-        <button className="text-[24px] font-bold text-[#17C2EC] px-6 py-5 rounded-[20px] bg-[#C4C4C4]/10 cursor-pointer hover:bg-[#17C2EC] hover:text-white transition-all duration-600 ease-in-out">
+        <button className="text-[24px] font-bold text-[#17C2EC] px-6 py-5 rounded-[20px] bg-[#C4C4C4]/10 cursor-pointer hover:bg-[#17C2EC] hover:text-white transition-all duration-600 ease-in-out max-lg:hidden ">
           Check Status
         </button>
       </div>
-      <img className="flex items-center justify-center" src={Group_83} alt="" />
+      <div className="lg:hidden">
+        {" "}
+        <SheetDemo />
+      </div>
     </div>
   );
 };

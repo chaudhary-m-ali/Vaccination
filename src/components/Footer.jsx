@@ -1,12 +1,10 @@
 import React from "react";
 import Vaccination_Logo from "../assets/Vaccination.ng.svg";
 import { Link, NavLink } from "react-router-dom";
-import Youtube from "../assets/youtube.svg";
-import facebook from "../assets/facebook.svg";
-
-import twitter from "../assets/twitter.svg";
-
-import instagram from "../assets/instagram.svg";
+import { Youtube } from "lucide-react";
+import { Facebook } from "lucide-react";
+import { Twitter } from "lucide-react";
+import { Instagram } from "lucide-react";
 import Send from "../assets/send.svg";
 
 const Footer = () => {
@@ -87,10 +85,18 @@ const Footer = () => {
         </ul>
       </div>
       <div className="flex gap-2">
-        <img src={Youtube} alt="" />
-        <img src={instagram} alt="" />
-        <img src={twitter} alt="" />
-        <img src={facebook} alt="" />
+        <a href="">
+          <Youtube size={50} color="white" />
+        </a>
+        <a href="">
+          <Instagram size={50} color="white" />
+        </a>
+        <a href="">
+          <Twitter size={50} color="white" />
+        </a>
+        <a href="">
+          <Facebook size={50} color="white" />
+        </a>
       </div>
       <div className="bg-[#17C2EC] flex flex-col justify-center items-center text-center rounded-[50px] h-100 absolute w-250 -top-50 left-60">
         <div>
@@ -105,11 +111,14 @@ const Footer = () => {
             placeholder="lenux.ng@gmail.com"
             className="bg-white relative  py-4.5 px-5 rounded-[20px] w-120 font-medium text-black/25 text-[20px] "
           />
-          <img
-            src={Send}
-            alt="arrow-icon"
-            className="bg-[#0B153C] absolute  top-0 right-0 px-9 pt-3.5 pb-3 rounded-tr-[20px] rounded-br-[20px]  "
-          />
+          <button className="cursor-pointer">
+            {" "}
+            <img
+              src={Send}
+              alt="arrow-icon"
+              className="bg-[#0B153C] absolute  top-0 right-0 px-9 pt-3.5 pb-3 rounded-tr-[20px] rounded-br-[20px]  "
+            />
+          </button>
         </div>
       </div>
     </div>

@@ -106,7 +106,7 @@ const Forms = () => {
 
                     <Button
                       className={
-                        "w-53 font-bold text-[24px] py-5! bg-[#17C2EC]!"
+                        "w-53 font-bold text-[24px] py-5! bg-[#17C2EC]! cursor-pointer"
                       }
                       type="button"
                     >
@@ -122,7 +122,7 @@ const Forms = () => {
 
           <Button
             className={
-              "bg-[#17C2EC]! w-full text-[24px] font-bold py-5 rounded-[20px]"
+              "bg-[#17C2EC]! w-full text-[24px] font-bold py-5 rounded-[20px] cursor-pointer"
             }
             type="submit"
           >

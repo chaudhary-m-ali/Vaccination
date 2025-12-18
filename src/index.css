@@ -41,6 +41,7 @@
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
   --font-Montserrat: "Montserrat", sans-serif;
+  --breakpoint-lg: 1150px;
 }
 
 :root {
