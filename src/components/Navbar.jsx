@@ -12,8 +12,8 @@ const Navbar = () => {
   return (
     <div className=" flex justify-between h-17.5 items-center  px-5  lg:px-17.5   ">
       <div>
-        <img src={Vaccination_Logo} alt="" />
-        <hr className="h-1 w-[100px] bg-[#17C2EC] rounded-full" />
+        <img src={Vaccination_Logo} alt="" className="max-sm:w-50" />
+        <hr className="h-1 w-25 max-sm:w-29 bg-[#17C2EC] rounded-full" />
       </div>
       <div>
         <ul className="flex gap-6 text-[24px]  cursor-pointer max-lg:hidden ">

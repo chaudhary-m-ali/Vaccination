@@ -96,7 +96,7 @@ export function SheetDemo() {
             </NavLink>
           </li>
           <div>
-            <button className="text-[24px] font-bold text-black/50 hover:text-black px-6 py-5 rounded-[20px] bg-[#C4C4C4]/10 cursor-pointer border-2 border-black transition-all duration-600 ease-in-out ">
+            <button className="text-[24px] font-bold text-black/50 hover:text-black px-6 py-5 rounded-[20px] bg-[#C4C4C4]/10 cursor-pointer border-2 border-black transition-all duration-600 ease-in-out  ">
               Check Status
             </button>
           </div>

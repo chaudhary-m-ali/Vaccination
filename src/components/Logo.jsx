@@ -7,10 +7,10 @@ const Logo = () => {
   return (
     <div className="bg-white opacity-50 py-8 ">
       <div className="logo flex justify-around items-center">
-        <img src={moderna} alt="" />
-        <img src={pfizer} alt="" />
-        <img src={astrazeneca} alt="" />
-        <img src={sinovac} alt="" />
+        <img src={moderna} alt="" className="max-lg:w-35 max-sm:w-18" />
+        <img src={pfizer} alt="" className="max-lg:w-35 max-sm:w-18" />
+        <img src={astrazeneca} alt="" className="max-lg:w-35 max-sm:w-18" />
+        <img src={sinovac} alt="" className="max-lg:w-35 max-sm:w-18" />
       </div>
     </div>
   );

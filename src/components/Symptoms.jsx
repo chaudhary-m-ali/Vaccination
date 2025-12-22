@@ -5,14 +5,14 @@ const Symptoms = () => {
     <div className="bg-[#0B153C] flex flex-col items-center justify-center gap-40 ">
       <div>
         <div className="flex flex-col items-center justify-center pt-10">
-          <h4 className="text-white font-bold text-[24px]">
+          <h4 className="text-white font-bold text-[24px] max-lg:text-[20px] max-xs:text-[12px]">
             Covid-19 Prevention
           </h4>
-          <h2 className="text-[#17C2EC] text-[48px] font-extrabold">
+          <h2 className="text-[#17C2EC] text-[48px] font-extrabold max-lg:text-[36px] max-sm:text-[24px]">
             COVID-19 <span className="text-white ">Symptoms</span>
           </h2>
         </div>
-        <p className="text-[24px] text-white/50 font-medium text-center lg:w-238 mt-5">
+        <p className="text-[24px] text-white/50 font-medium text-center lg:w-238 mt-5 max-lg:text-[18px] max-s:text-[12pxd]">
           Adipiscing nec etiam tortor elit quisque. Arcu aliquet convallis
           aenean eu velit. Mi vestibulum, ullamcorper venenatis imperdiet augue
           arcu donec neque.
